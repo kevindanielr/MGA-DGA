@@ -7,7 +7,7 @@ import { PagesComponent } from './pages.component';
 // Rutas padres
 const routes: Routes = [
     {
-        path: 'mga-dga',
+        path: '',
         component: PagesComponent,
         loadChildren: () => import('./child-routes.module').then( m => m.ChildRoutesModule )
     },
